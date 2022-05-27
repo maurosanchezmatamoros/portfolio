@@ -14,10 +14,10 @@ const AboutMe = () => {
                     Being a football passionated and a fan of "Club Atlético Huracán" is something I inherited from my mom and my grandpa.
                     </p>
                 <p style={{color: colors.black}}>
-                    As regards my professional life, I got a degree in Accountancy in the Buenos Aires University (UBA), but it was never my real passion.
-                    During the pandemic, I discovered how much I like programming, and from that moment, I continued learning and practicing constantly.
+                    As regards my professional life, I've got a degree in Accountancy from the Buenos Aires University (UBA), but it was never my real passion.
+                    During the pandemic, I discovered how much I like programming and, from that moment, I continued learning and practicing constantly.
                     I've completed the "Front-end React Development" program at <a href="https://www.coderhouse.com/">"Coderhouse"</a>.
-                    Some classmates and I created a Development Team named "Timu" and we offered, at first, our services for free to ONG that needed a website.
+                    Some classmates and I created a Development Team named "Timu" and we offered, at first, our services for free to NGOs that needed a website.
                 </p>
             </div>
         </div>

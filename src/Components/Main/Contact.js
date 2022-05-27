@@ -25,41 +25,41 @@ const Contact = () => {
                     let errores = {}
 
                     if (!$values.name){
-                        errores.name = 'Por favor ingresa un nombre'
+                        errores.name = 'Please write a name'
                     } else if (!/^[a-zA-ZÀ-ÿ\s]{1,40}$/.test($values.name)){
-                        errores.name = 'El nombre sólo puede contener letras y/o espacios'
+                        errores.name = 'The name can only have letters and/or spaces'
                     }
 
                     if (!$values.lastName){
-                        errores.lastName = 'Por favor ingresa un apellido'
+                        errores.lastName = 'Please write a last name'
                     } else if (!/^[a-zA-ZÀ-ÿ\s]{1,40}$/.test($values.lastName)){
-                        errores.lastName = 'El apellido sólo puede contener letras y/o espacios'
+                        errores.lastName = 'The lastname can only have letters and/or spaces'
                     }
 
                     if (!$values.cel){
-                        errores.cel = 'Por favor ingresa un número de contacto'
+                        errores.cel = 'Please write a contact number'
                     } else if (!/^[0-9]+/.test($values.cel)){
-                        errores.cel = 'Sólo puede contener números'
+                        errores.cel = 'It can only contain numbers'
                     }
 
                     if (!$values.email){
-                        errores.email = 'Por favor ingresa un email'
+                        errores.email = 'Please write your email'
                     } else if (!/^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/.test($values.email)){
-                        errores.email = 'El formato no corresponde a un email'
+                        errores.email = 'The format does not correspond to an email'
                     }
 
                     return errores
                 }}
 
                 onSubmit = {(valores, {resetForm}) => {
-                    swal("Message sent!", `Thank you for contact me`, "success")
+                    swal("Message sent!", `Thank you for contacting me`, "success")
                     resetForm()
                 }}>
 
                 {( { errors } ) => (
                     <Form className="Contact__form" style={{backgroundColor: `${colors.primary}aa`}}>
                     <div className="Contact__input">
-                        <label htmlFor="name">Firstname:</label>
+                        <label htmlFor="name">First name:</label>
                         <Field 
                             type="text" 
                             name="name" 
@@ -71,7 +71,7 @@ const Contact = () => {
                             <div className="Contact__input__error">{errors.name}</div>
                         )} />
                     <div className="Contact__input">
-                        <label htmlFor="lastname">Lastname:</label>
+                        <label htmlFor="lastname">Last name:</label>
                         <Field 
                             type="text" 
                             name="lastName" 
@@ -92,7 +92,7 @@ const Contact = () => {
                         />
                     </div>
                     <div className="Contact__input">
-                        <label htmlFor="cel">Cel:</label>
+                        <label htmlFor="cel">Phone:</label>
                         <Field 
                             type="number" 
                             name="cel" 
