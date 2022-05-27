@@ -1,0 +1,40 @@
+.AboutMe{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.AboutMe h2{
+    text-shadow: 0px 4px 4px #0005;
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+.AboutMe img{
+    width: 20rem;
+    height: 25.2rem;
+    object-fit: scale-down;
+    text-align: center;
+    display: none;
+}
+
+.AboutMe__textBox{
+    width: 90%;
+    border-radius: 1rem;
+}
+
+.AboutMe__textBox p{
+    text-indent: 2rem;
+    padding: 1rem;
+    margin: 0;
+    text-align: justify;
+    font-weight: 500;
+    line-height: 1.6rem;
+}
+
+.AboutMe__textBox a{
+    text-decoration: none;
+    color: inherit;
+}

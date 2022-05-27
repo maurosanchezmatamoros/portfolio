@@ -1,0 +1,65 @@
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0px 4px 4px 0px #0005;
+}
+
+nav{
+    height: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 1s;
+}
+
+.navbarExtended{
+    height: 6.5rem;
+    width: 100%;
+    position: relative;
+    transition: 1s;
+    text-align: center;
+    font-weight: 300;
+}
+
+.navbarNotExtended{
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+    text-align: center;
+}
+
+.navbarExtended h1{
+    display: block;
+    width: 100%;
+    font-weight: 400;
+}
+
+.navbarExtended h2{
+    display: block;
+    width: 100%;
+    font-weight: 300;
+}
+
+.navbarNotExtended h1{
+    font-size: 0.9rem;
+    font-weight: 200;
+}
+
+
+.navbarNotExtended h2{
+    font-size: 0.9rem;
+    font-weight: 200;
+    margin: 0 0.5rem;
+}
+
+.navbarNotExtended h1::after{
+    content: "  |  ";
+}
+
+.navbarNotExtended h2::before{
+    content: "  |  ";
+}

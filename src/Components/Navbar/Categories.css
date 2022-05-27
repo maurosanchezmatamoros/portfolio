@@ -1,0 +1,15 @@
+.Categories{
+    margin: 0 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Categories a{
+    text-decoration: none;
+    padding: 0 0.6rem;
+}
+
+.Categories a:hover{
+    opacity: 0.5;
+    text-shadow: 0px 3px 3px #000a;
+}

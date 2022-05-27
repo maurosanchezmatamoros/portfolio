@@ -1,0 +1,52 @@
+.MyProjectsCard{
+    width: 40%;
+    padding: 0.5rem;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.MyProjectsCard > h3 {
+    text-align: center;
+    margin: 0.5rem 0;
+}
+
+.MyProjectsCard > span {
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.MyProjectsCard > img {
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+
+.MyProjectsCard > img:hover {
+    opacity: 0.6;
+    cursor: pointer;
+    transition: 0.5s;
+    transform: scale(1.1, 1.1);
+}
+
+.MyProjectsCard button {
+    width: 85%;
+    height: 1.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 0.8rem;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.MyProjectsCard a {
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

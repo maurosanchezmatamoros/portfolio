@@ -1,0 +1,23 @@
+
+.MyProjects{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.MyProjects h2{
+    text-shadow: 0px 4px 4px #0005;
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+.MyProject__card{
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
