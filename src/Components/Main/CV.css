@@ -1,0 +1,45 @@
+.CV{
+    width: 90%;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.CV h2{
+    text-shadow: 0px 4px 4px #0005;
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+.CV__cv{
+    max-width: 95%;
+    width: 40rem;
+    height: 20rem;
+    object-fit: cover;
+    object-position: top;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 2px 2px #0008;
+}
+
+.CV__cv:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    transition: 0.5s;
+    transform: scale(1.1, 1.1);
+}
+
+.CV__svg{
+    width: 3rem;
+}
+
+.CV__svg:hover{
+    opacity: 0.5;
+    filter: drop-shadow(1px 1px 1px #0008);
+    cursor: pointer;
+}
+
+.CV span{
+    font-weight: 500;
+}

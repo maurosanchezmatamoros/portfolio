@@ -11,7 +11,8 @@ const Navbar = () => {
 
     const styles = {
         backgroundColor: colors.primary,
-        fontFamily: fonts.base
+        fontFamily: fonts.base,
+        zIndex: "10"
     }
 
     const navStyle = {

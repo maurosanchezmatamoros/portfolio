@@ -1,0 +1,131 @@
+.Contact{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Contact h2{
+    text-shadow: 0px 4px 4px #0005;
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+.Contact h4{
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.Contact__form{
+    display: flex;
+    flex-direction: column;
+    max-width: 30rem;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.Contact__input{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+}
+
+.Contact__input label{
+    margin-right: 0.5rem;
+}
+
+.Contact__input input{
+    border: none;
+    border-radius: 1rem;
+    width: 20rem;
+    height: 2rem;
+    padding: 0 0.5rem
+}
+
+#message{
+    min-height: 2rem;
+    resize: vertical;
+    border: none;
+    border-radius: 1rem;
+    width: 20rem;
+    padding: 0 0.5rem
+}
+
+.Contact__input__error{
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 0 0 8rem;
+    font-size: 0.8rem;
+    color: #fff;
+    font-weight: 600;
+}
+
+.Contact__submit{
+    text-align: center;
+    padding: 2rem 0 1rem 0;
+}
+
+.Contact__submit input{
+    border: none;
+    border-radius: 1rem;
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+}
+
+#ContactSubmit:hover{
+    box-shadow: 1px 1px 2px 2px #0008;
+}
+
+.Contact__loader{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 580px){
+    .Contact__form{
+        width: calc(90% - 2rem);
+        padding: 1rem;
+    }
+    .Contact__input{
+        flex-wrap: wrap;
+    }
+    .Contact__input input{
+        width: 100%;
+    }
+    .Contact__input label{
+        width: 100%;
+        padding-bottom: 0.5rem;
+    }
+    .Contact__input__error{
+        padding: 0 1rem;
+    }
+}
+
+.Contact__social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.Contact__social a{
+    margin: 0 0.5rem;
+    width: 2rem;
+}
+
+.Contact__social img{
+    width: 2rem;
+}
+
+.Contact__social img:hover{
+    opacity: 0.5;
+    filter: drop-shadow(0px 2px 2px #0008)
+}
+
+.Contact h3{
+    text-shadow: 0px 4px 4px #0005;
+}
