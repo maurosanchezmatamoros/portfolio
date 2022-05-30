@@ -1,0 +1,27 @@
+.SocialNetworks__svg{
+    width: 90vw;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.SocialNetworks__svg a{
+    margin: 0 0.5rem;
+    width: 2rem;
+}
+
+.SocialNetworks__svg img{
+    width: 2rem;
+}
+
+.SocialNetworks__svg img:hover{
+    opacity: 0.5;
+    filter: drop-shadow(0px 2px 2px #0008);
+    transform: scale(1.4);
+}
+
+.SocialNetworks__h3{
+    text-shadow: 0px 4px 4px #0005;
+}

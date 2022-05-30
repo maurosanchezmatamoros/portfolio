@@ -3,6 +3,7 @@ import swal from "sweetalert"
 import { Formik, Form, Field, ErrorMessage } from "formik"
 import { colors } from "../../Styles/theme"
 import { fonts } from "../../Styles/theme"
+import SocialNetworks from "./SocialNetworks"
 
 const Contact = () => {
 
@@ -139,27 +140,7 @@ const Contact = () => {
                 </Form>
                 )}
             </Formik>
-            <h3>Social networks</h3>
-            <div className="Contact__social">
-                <a href="https://www.linkedin.com/in/maurosanchezmatamoros/" target="_blank" rel="noopener noreferrer">
-                    <img src="./svg/linkedin.svg" alt="linkedin"/>
-                </a>
-                <a href="mailto:maurosanchezmatamoros@gmail.com" target="_blank" rel="noopener noreferrer">
-                    <img src="./svg/gmail.svg" alt="gmail"/>
-                </a>
-                <a href="https://wa.me/+5491154612423/?text=Hello Mauro..." target="_blank" rel="noopener noreferrer">
-                    <img src="./svg/whatsapp.svg" alt="whatsapp"/>
-                </a>
-                <a href="https://www.instagram.com/smmauro/" target="_blank" rel="noopener noreferrer">
-                    <img src="./svg/instagram.svg" alt="instagram"/>
-                </a>
-                <a href="https://www.facebook.com/smmauro" target="_blank" rel="noopener noreferrer">
-                    <img src="./svg/facebook.svg" alt="facebook"/>
-                </a>
-                <a href="https://twitter.com/smmauro" target="_blank" rel="noopener noreferrer">
-                    <img src="./svg/twitter.svg" alt="twitter"/>
-                </a>
-            </div>
+            <SocialNetworks />
         </div>
     )
 }

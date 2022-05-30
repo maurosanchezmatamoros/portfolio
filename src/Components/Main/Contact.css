@@ -51,7 +51,11 @@
     border: none;
     border-radius: 1rem;
     width: 20rem;
-    padding: 0 0.5rem
+    padding: 0 0.5rem;
+}
+
+#message::placeholder{
+    padding-top: 0.3rem;
 }
 
 .Contact__input__error{
@@ -103,29 +107,4 @@
     .Contact__input__error{
         padding: 0 1rem;
     }
-}
-
-.Contact__social{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 2rem;
-}
-
-.Contact__social a{
-    margin: 0 0.5rem;
-    width: 2rem;
-}
-
-.Contact__social img{
-    width: 2rem;
-}
-
-.Contact__social img:hover{
-    opacity: 0.5;
-    filter: drop-shadow(0px 2px 2px #0008)
-}
-
-.Contact h3{
-    text-shadow: 0px 4px 4px #0005;
 }
