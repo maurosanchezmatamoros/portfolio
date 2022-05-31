@@ -23,6 +23,8 @@
 .AboutMe__textBox{
     width: 90%;
     border-radius: 1rem;
+    background-color: rgba(3,61,69,0.3);
+    border: 3px solid rgba(3,61,69,1)
 }
 
 .AboutMe__textBox p{

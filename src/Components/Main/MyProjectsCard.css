@@ -39,6 +39,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgba(3,61,69,1)
 }
 
 .MyProjectsCard a {
@@ -49,4 +50,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #ddd;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#github__svg{
+    width: 1rem;
+    margin: 0 0.3rem 0 0
 }

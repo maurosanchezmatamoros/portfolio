@@ -24,6 +24,7 @@
     max-width: 30rem;
     padding: 2rem;
     border-radius: 1rem;
+    background-color: rgba(3,61,69,0.3);
 }
 
 .Contact__input{
@@ -56,6 +57,8 @@
 
 #message::placeholder{
     padding-top: 0.3rem;
+    color: rgba(3,61,69,1);
+    font-family: 'Montserrat', sans-serif;
 }
 
 .Contact__input__error{
@@ -63,7 +66,7 @@
     justify-content: flex-start;
     padding: 0 0 0 8rem;
     font-size: 0.8rem;
-    color: #fff;
+    color: #ddd;
     font-weight: 600;
 }
 
@@ -77,6 +80,9 @@
     border-radius: 1rem;
     padding: 0.5rem 2rem;
     cursor: pointer;
+    color: #ddd;
+    background-color: rgba(3,61,69,0.5);
+    font-family: 'Montserrat', sans-serif;
 }
 
 #ContactSubmit:hover{

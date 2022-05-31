@@ -13,21 +13,39 @@
     font-size: 1.8rem;
 }
 
-.CV__cv{
-    max-width: 95%;
+.CV__container{
+    max-width: 95vw;
     width: 40rem;
     height: 20rem;
-    object-fit: cover;
-    object-position: top;
     margin-bottom: 1rem;
     box-shadow: 0 2px 2px 2px #0008;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    padding: 0;
 }
 
-.CV__cv:hover{
-    opacity: 0.5;
-    cursor: pointer;
-    transition: 0.5s;
-    transform: scale(1.1, 1.1);
+.CV__container::-webkit-scrollbar{
+    display: none;
+}
+
+.CV__inside{
+    width: 100%;
+}
+
+.CV__inside:hover{
+    cursor: n-resize;
+    opacity: 0.8;
+}
+
+.scrollDown{
+    width: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.animate__fadeInDown{
+    animation-delay: 1s;
+    animation-duration: 3s !important;
+    animation-iteration-count: infinite;
 }
 
 .CV__svg{

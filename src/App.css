@@ -1,0 +1,12 @@
+p, h1, h2, h3, h4, span, p, input, label, button, a{
+    color: rgba(3,61,69,1)
+}
+
+main{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ddd;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column
+}

@@ -3,6 +3,9 @@ header{
     top: 0;
     width: 100%;
     box-shadow: 0px 4px 4px 0px #0005;
+    background-image: linear-gradient( 109.6deg,  rgba(3,61,69,1) 16%, #ccc 91.1% );
+    font-family: 'Montserrat', sans-serif;
+    z-index: 10;
 }
 
 nav{
@@ -15,11 +18,49 @@ nav{
 }
 
 .navbarExtended{
-    height: 6.5rem;
+    height: calc(100vh - 6rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
     width: 100%;
-    transition: 1s;
+    transition: height 1s;
     text-align: center;
     font-weight: 300;
+}
+
+
+.navbarExtended h1{
+    display: block;
+    width: 100%;
+    font-weight: 400;
+    text-shadow: 0px 4px 4px #0005;
+    color: #ddd;
+}
+
+.navbarExtended h2{
+    display: block;
+    width: 100%;
+    font-weight: 300;
+    text-shadow: 0px 4px 4px #0005;
+    color: #ddd;
+}
+
+.navbarExtended img{
+    width: 1.5rem;
+}
+
+.navbarExtended span{
+    margin: 1rem 0 0.5rem 0;
+    font-size: 0.8rem;
+    color: #ddd;
+}
+
+.animate__fadeInDown{
+    animation-delay: 1s;
+    animation-duration: 3s !important;
+    animation-iteration-count: infinite;
 }
 
 .navbarNotExtended{
@@ -31,36 +72,33 @@ nav{
     text-align: center;
 }
 
-.navbarExtended h1{
-    display: block;
-    width: 100%;
-    font-weight: 400;
-    text-shadow: 0px 4px 4px #0005;
-}
-
-.navbarExtended h2{
-    display: block;
-    width: 100%;
-    font-weight: 300;
-    text-shadow: 0px 4px 4px #0005;
-}
-
 .navbarNotExtended h1{
     font-size: 0.9rem;
     font-weight: 200;
+    color: #fff;
 }
-
 
 .navbarNotExtended h2{
     font-size: 0.9rem;
     font-weight: 200;
     margin: 0 0.5rem;
+    color: #fff;
 }
 
 .navbarNotExtended h1::after{
     content: "  |  ";
+    color: #fff;
 }
 
 .navbarNotExtended h2::before{
     content: "  |  ";
+    color: #fff;
+}
+
+.navbarNotExtended span{
+    display: none
+}
+
+.navbarNotExtended img{
+    display: none
 }

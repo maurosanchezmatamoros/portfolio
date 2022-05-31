@@ -1,6 +1,4 @@
 import { useState } from "react"
-import { colors } from "../../Styles/theme"
-import { fonts } from "../../Styles/theme"
 import Categories from "./Categories"
 import "./Navbar.css"
 import Social from "./Social"
@@ -8,16 +6,6 @@ import Social from "./Social"
 const Navbar = () => {
 
     const [showNavbar, setShowNavbar] = useState("navbarExtended")
-
-    const styles = {
-        backgroundColor: colors.primary,
-        fontFamily: fonts.base,
-        zIndex: "10"
-    }
-
-    const navStyle = {
-        color: colors.white
-    }
 
     const handleScroll = () => {
         window.scrollY > 0?
@@ -29,14 +17,16 @@ const Navbar = () => {
     window.addEventListener("scroll", handleScroll)
 
     return (
-        <header style={ styles }>
+        <header>
             <nav>
                 <Categories />
                 <Social />
             </nav>
-            <div style={ navStyle } className={showNavbar}>
+            <div className={showNavbar}>
                 <h1>Mauro Sanchez Matamoros</h1>
                 <h2>Front-end Developer</h2>
+                <span className="animate__animated animate__fadeInDown">Scroll down</span>
+                <img className="animate__animated animate__fadeInDown" src="./svg/arrowDown.svg" alt="arrow down" /> 
             </div>
         </header>
     )

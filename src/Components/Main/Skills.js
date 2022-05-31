@@ -1,10 +1,9 @@
 import "./Skills.css"
-import { colors } from "../../Styles/theme"
 
 const Skills = () => {
     return(
         <>
-            <h2 style={{color: colors.black}}>These are my skills...</h2>
+            <h2>These are my skills...</h2>
             <div className="Skills__slider">
                 <div className="Skills__slideTrack">
                     <div className="Skills__slide"><img className="Skills__svg" src="./svg/html.svg" alt="htlm logo" /></div>
