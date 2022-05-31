@@ -42,11 +42,3 @@
     text-decoration: none;
     color: inherit;
 }
-
-.animate__backInLeft{
-    animation-delay: 0.5s;
-}
-
-.animate__backInRight{
-    animation-delay: 1.5s;
-}
