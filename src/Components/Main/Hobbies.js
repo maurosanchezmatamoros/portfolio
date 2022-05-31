@@ -16,11 +16,11 @@ const Hobbies = () => {
                     <p>One of my favourite passions is football, I've practiced it since I was a kid and I still do it every weekend in different amateur tournements. I often go to the Huracán's stadium to watch football matches and cheer my team. In addition, I have been a member of the online football manager "Hattrick" for many years.</p>
                     <p>For sure, most people would share the taste for travelling. Regardless of the high costs involved, my girlfriend and I always try to visit as many places as possible. I strongly believe that Argentina is one of the richest countries respecting landscapes.</p>
                 </div>
-                <div className="Hobbies__photos">
+                <div className="Hobbies__photos2">
                     <img src="./images/hobbies/huracan.jpg" alt="" />
                     <img id="rotateLeft" src="./images/hobbies/futbol4.jpg" alt="" />
                     <img src="./images/hobbies/futbol.jpg" alt="" />
-                    <img src="./images/hobbies/futbol3.jpg" alt="" />
+                    <img id="rotateLeft" src="./images/hobbies/futbol3.jpg" alt="" />
                     <a id="ht__link" href="http://www.hattrick.org" target="_blank" rel="noopener noreferrer">
                         <img id="ht" src="./images/hobbies/htlogo.png" alt="" />
                     </a>

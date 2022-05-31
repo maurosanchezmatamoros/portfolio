@@ -15,9 +15,18 @@
 
 .MyProject__card{
     width: 95%;
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: calc(50% - 1rem) calc(50% - 1rem);
+    grid-template-rows: calc(50% - 1rem) calc(50% - 1rem);
+    grid-gap: 2rem;
     align-items: flex-start;
-    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 530px){
+    .MyProject__card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 

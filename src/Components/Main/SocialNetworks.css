@@ -1,5 +1,5 @@
 .SocialNetworks__svg{
-    width: 90vw;
+    width: 95%;
     height: 4rem;
     display: flex;
     justify-content: center;
@@ -24,4 +24,14 @@
 
 .SocialNetworks__h3{
     text-shadow: 0px 4px 4px #0005;
+}
+
+@media screen and (max-width: 320px) {
+    .SocialNetworks__svg a{
+        margin: 0 0.2rem;
+        width: 1.6rem;
+    }
+    .SocialNetworks__svg img{
+        width: 1.6rem;
+    }
 }

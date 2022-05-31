@@ -4,12 +4,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 95%;
 }
 
 .AboutMe h2{
     text-shadow: 0px 4px 4px #0005;
     font-weight: 600;
     font-size: 1.8rem;
+    text-align: center;
 }
 
 .AboutMe > img{

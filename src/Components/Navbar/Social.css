@@ -2,6 +2,8 @@
     margin: 0 2rem;
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    height: 2.5rem;
 }
 
 .Social img{
@@ -13,4 +15,10 @@
 
 .Social img:hover{
     opacity: 0.5;
+}
+
+@media screen and (max-width: 500px){
+    .Social{
+        display: none;
+    }
 }

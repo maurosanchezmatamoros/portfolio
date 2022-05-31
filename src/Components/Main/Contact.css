@@ -4,6 +4,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 95%;
 }
 
 .Contact h2{
@@ -16,6 +17,7 @@
     font-weight: 500;
     font-size: 1rem;
     text-align: center;
+    width: 95%;
 }
 
 .Contact__form{

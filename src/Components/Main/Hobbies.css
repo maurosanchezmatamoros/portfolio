@@ -14,18 +14,38 @@
 
 .Hobbies__container{
     width: 95%;
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    grid-template-areas:
+    "photos text photos2";
 }
 
 .Hobbies__photos{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 30%;
+    width: 100%;
+    grid-area: photos;
 }
 
 .Hobbies__photos img{
+    width: 80%;
+    object-fit: scale-down;
+    border-radius: 1rem;
+    margin-bottom: -0.5rem;
+    transform: rotate(5deg);
+    box-shadow: 1px 1px 4px 2px #0006;
+}
+
+.Hobbies__photos2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    grid-area: photos2;
+}
+
+.Hobbies__photos2 img{
     width: 80%;
     object-fit: scale-down;
     border-radius: 1rem;
@@ -55,14 +75,23 @@
     z-index: 5;
 }
 
+.Hobbies__photos2 img:hover{
+    opacity: 0.9;
+    width: 100%;
+    transition: 1s;
+    transform: rotate(0deg);
+    object-fit: cover;
+    z-index: 5;
+}
+
 .Hobbies__text{
-    width: 31%;
+    width: 100%;
+    grid-area: text;
 }
 
 #ht{
     margin-top: 1rem;
     background-color: #eee;
-    transform: rotate(-5deg);
 }
 
 #ht:hover{
@@ -108,20 +137,46 @@
         line-height: 1.2rem;
         font-size: 0.9rem;
     }
-    .Hobbies__photos{
-        width: 30%;
+}
+
+@media screen and (max-width: 725px) {
+    .Hobbies__container{
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+        grid-template-areas:
+        "photos text"
+        "photos2 text";
     }
-    .Hobbies__text{
-        width: 35%;
+    .Hobbies__text p{
+        font-size: 1.2rem;
+        line-height: 2.5rem
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 630px) {
     .Hobbies__text p{
-        line-height: 1.2rem;
-        font-size: 0.9rem;
+        font-size: 1rem;
+        line-height: 2rem
     }
-    .Hobbies__text{
-        width: 45%;
+}
+
+@media screen and (max-width: 500px) {
+    .Hobbies__text p{
+        font-size: 1rem;
+        line-height: 1.3rem
+    }
+}
+
+@media screen and (max-width: 435px) {
+    .Hobbies__text p{
+        font-size: 0.9rem;
+        line-height: 1.1rem
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .Hobbies__text p{
+        font-size: 0.8rem;
+        line-height: 1rem
     }
 }

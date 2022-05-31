@@ -9,21 +9,21 @@ header{
 }
 
 nav{
-    height: 3rem;
+    height: auto;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     transition: 1s;
 }
 
 .navbarExtended{
-    height: calc(100vh - 6rem);
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 3rem;
     width: 100%;
     transition: height 1s;
     text-align: center;
@@ -72,6 +72,10 @@ nav{
     text-align: center;
 }
 
+.navbarNotExtended:hover{
+    transform: scale(1.05);
+}
+
 .navbarNotExtended h1{
     font-size: 0.9rem;
     font-weight: 200;
@@ -101,4 +105,45 @@ nav{
 
 .navbarNotExtended img{
     display: none
+}
+
+.HamburgerMenu{
+    display: none;
+    height: 2.5rem;
+}
+
+.HamburgerMenu__svg{
+    width: 2rem;
+    margin: 0 1.5rem;
+    cursor: pointer;
+}
+
+.HamburgerMenu__svg:hover{
+    transform: rotate(180deg);
+    transition: 1s;
+}
+
+@media screen and (max-width: 800px){
+    .Categories{
+        display: none;
+    }
+    .HamburgerMenu{
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 410px){
+    .navbarNotExtended h2::before{
+        display: none;
+    }
+    .navbarNotExtended h1::after{
+        display: none;
+    }
+    .navbarNotExtended{
+        flex-direction: column;
+        height: 3rem;
+    }
+    .navbarNotExtended h1{
+        margin: 0.2rem;
+    }
 }
