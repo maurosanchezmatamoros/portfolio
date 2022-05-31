@@ -4,6 +4,7 @@ import MyProjects from "./Components/Main/MyProjects"
 import CV from "./Components/Main/CV"
 import Hobbies from "./Components/Main/Hobbies"
 import Contact from "./Components/Main/Contact"
+import Footer from "./Components/Footer/Footer"
 import { Route, Routes, BrowserRouter } from "react-router-dom"
 import "./App.css"
 
@@ -32,6 +33,7 @@ function App() {
             <Route path='*' element={<h1>Page not found</h1>} />
           </Routes>
         </main>
+        <Footer />
       </BrowserRouter>
     </>
   )
