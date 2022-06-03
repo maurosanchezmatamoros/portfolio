@@ -25,7 +25,7 @@
         transform: translateX(0);
     }
     100% {
-        transform: translateX(calc(-65rem));
+        transform: translateX(calc(-70rem));
     }
 }
 
