@@ -9,9 +9,9 @@ const AboutMe = () => {
             <img src="./images/mauroHighResol.png" alt="Mauro Sanchez Matamoros" />
             <div className="AboutMe__textBox">
                 <p>
-                    Hello! Welcome to my portfolio, my name is Mauro Sanchez Matamoros, a front-end developer.
+                    Hello! Welcome to my portfolio, my name is Mauro Sanchez Matamoros and I am a front-end developer.
                     I'd like to tell you a little bit of me...
-                    I was born in Buenos Aires, Argentina. Since then, I've always lived in Villa Lugano, a town in the south of the Capital City.
+                    I was born in Buenos Aires, Argentina. Since then, I've always lived in Villa Lugano, a town located in the south of the Capital City.
                 </p>
                 <p>
                     As regards my professional life, I've got a degree in Accountancy from the Buenos Aires University (UBA), but it was never my real passion.
