@@ -1,9 +1,14 @@
+import { useContext } from "react"
+import LanguageContext from "../../Context/LanguageContext"
 import "./SocialNetworks.css"
 
 const SocialNetworks = () => {
+
+    const {language} = useContext(LanguageContext)
+
     return(
         <>
-            <h3 className="SocialNetworks__h3">Social networks</h3>
+            <h3 className="SocialNetworks__h3">{language==="en"? "Social networks" : language==="es"? "Redes sociales" : "LanguageError"}</h3>
             <div className="SocialNetworks__svg">
                 <a href="https://www.linkedin.com/in/maurosanchezmatamoros/" target="_blank" rel="noopener noreferrer">
                     <img src="./svg/linkedin.svg" alt="linkedin"/>

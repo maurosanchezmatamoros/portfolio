@@ -1,9 +1,14 @@
+import { useContext } from "react"
+import LanguageContext from "../../Context/LanguageContext"
 import "./Skills.css"
 
 const Skills = () => {
+
+    const {language} = useContext(LanguageContext)
+
     return(
         <>
-            <h2>These are my skills...</h2>
+            <h2>{language==="en"?"These are my skills":language==="es"?"Mis habilidades":"LanguageError"}</h2>
             <div className="Skills__slider">
                 <div className="Skills__slideTrack">
                     <div className="Skills__slide"><img className="Skills__svg" src="./svg/html.svg" alt="htlm logo" title="htlm" /></div>
