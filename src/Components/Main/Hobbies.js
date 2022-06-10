@@ -18,9 +18,9 @@ const Hobbies = () => {
                 </div>
                 {language==="en"?
                 <div className="Hobbies__text">
-                    <p>I have a group of incredible friends who I studied with since kindergarden. We frequently get together to share big meals or to celebrate our bithdays. These meetings are a breath of fresh air and help us to disconect from the routine. I often cook for them, what makes me feel quite comfortable and I really enjoy it.</p>
-                    <p>One of my favourite passions is football, I've practiced it since I was a kid and I still do it every weekend in different amateur tournements. I often go to the Huracán's stadium to watch football matches and cheer for my team. In addition, I have been a member of the online football manager "Hattrick" for many years.</p>
-                    <p>For sure, most people would share the taste for travelling. Regardless of the high costs involved, my girlfriend and I always try to visit as many places as possible. I strongly believe that Argentina is one of the richest countries respecting landscapes.</p>
+                    <p>I have a group of incredible friends who I studied with since kindergarten. We frequently get together to share big meals or to celebrate our bithdays. These meetings are a breath of fresh air and help us to disconnect from the routine. I often cook for them, which makes me feel quite comfortable and I really enjoy it.</p>
+                    <p>One of my passions is football, I've practiced it since I was a kid and I still do it every weekend in different amateur tournements. I often go to Huracán's stadium to watch football matches and cheer for my team. In addition, I have been a member of the online football manager "Hattrick" for many years.</p>
+                    <p>Like many people, I have a taste for travelling. Regardless of the high costs involved, my girlfriend and I always try to visit as many places as possible. I strongly believe that Argentina is one of the richest countries respecting landscapes.</p>
                 </div>
                 :
                 language==="es"?

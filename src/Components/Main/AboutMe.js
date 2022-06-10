@@ -21,8 +21,8 @@ const AboutMe = () => {
                 </p>
                 <p>
                     As regards my professional life, I've got a degree in Accountancy from the Buenos Aires University (UBA), but it was never my real passion.
-                    During the pandemic, I discovered how much I like programming and, from that moment, I continued learning and practicing constantly.
-                    I've completed the "Front-end React Development" program at <a href="https://www.coderhouse.com/">"Coderhouse"</a>.
+                    As the pandemic began, I incursionated in programming and I discovered how much I like it. From that moment, I continued learning and practicing constantly.
+                    I've completed the "Front-end React Development" program at <a href="https://www.coderhouse.com/">"Coderhouse"</a> and I have been studying on my own since then.
                     Some classmates and I created a Development Team named "Timu". We gained experience offering our services for free to NGOs that needed a website.
                 </p>
             </div>
@@ -36,16 +36,15 @@ const AboutMe = () => {
             <img src="./images/mauroHighResol.png" alt="Mauro Sanchez Matamoros" />
             <div className="AboutMe__textBox">
                 <p>
-                    ¡Hola! Bienvenido a mi portfolio, mi nombre es Mauro Sanchez Matamoros, soy front-end developer.
-                    y me gustaría contarte un poco sobre mí...
+                    ¡Hola! Bienvenido a mi portfolio, mi nombre es Mauro Sanchez Matamoros, soy front-end developer, y me gustaría contarte un poco sobre mí...
                 </p>
                 <p>
                     Nací en la Ciudad Autónoma de Buenos Aires, Argentina. Desde ese entonces he vivido en Villa Lugano, un barrio al sur de la misma ciudad.
                 </p>
                 <p>
                     Respecto a mi profesión, me gradué como Contador Público en la Universidad de Buenos Aires (UBA), pero nunca me apasionó realmente la contabilidad.
-                    Durante la pandemia, incursioné en la programación y descubrí lo mucho que me gustaba, y desde ese momento, comencé a estudiar, leer y practicar constantemente.
-                    He completado la carrera de "Front-end React Developer" en <a href="https://www.coderhouse.com/">"Coderhouse"</a>.
+                    Cuando comenzó la pandemia, incursioné en la programación y descubrí lo mucho que me gustaba, y desde ese momento, comencé a estudiar, leer y practicar constantemente.
+                    He completado la carrera de "Front-end React Developer" en <a href="https://www.coderhouse.com/">"Coderhouse" y actualmente continuo capacitándome de manera autodidácta.</a>.
                 </p>
                 <p>
                     Junto con algunos compañeros desarrolladores y otros diseñadores hemos conformado un grupo de trabajo al que llamamos "Timu". De esta manera comenzamos a ofrecer nuestros servicios a ONGs que necesitaban de nuestra ayuda, para de esta manera poder sumar experiencia laboral.

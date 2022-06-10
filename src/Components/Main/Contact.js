@@ -13,7 +13,7 @@ const Contact = () => {
     {return(
         <div className="Contact">
             <h2>Contact</h2>
-            <h4>If you are interested in getting in contact with me, complete and submit this form, or use any social network link above.</h4>
+            <h4>If you are interested in contacting me, complete and submit this form, or use any social network link below.</h4>
             <Formik
                 initialValues = {{
                     name: "",
