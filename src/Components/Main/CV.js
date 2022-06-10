@@ -10,7 +10,7 @@ const CV = () => {
         <div className="CV" >
             <h2>{language==="en"?"My Resume":language==="es"?"Mi CV":"LanguageError"}</h2>
             <div className="CV__container">
-                <a href="https://mauro-sanchez-matamoros-cv.vercel.app/" target="_blank" rel="noopener noreferrer">
+                <a href="https://mauro-sanchez-matamoros-cv.vercel.app/pages/cvEsp.html" target="_blank" rel="noopener noreferrer">
                     <img className="CV__inside" src="./images/cv-mauro-sanchez-matamoros.png" alt="cv mauro sanchez matamoros"/>
                 </a>
             </div>
