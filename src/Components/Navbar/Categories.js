@@ -15,7 +15,6 @@ const Categories = () => {
                 <Link to="/aboutme">About</Link>
                 <Link to="/myprojects">Projects</Link>
                 <Link to="/cv">Resume</Link>
-                <Link to="/hobbies">Hobbies</Link>
                 <Link to="/contact">Contact</Link>
             </div>
         </>
@@ -28,7 +27,6 @@ const Categories = () => {
                 <Link to="/aboutme">Sobre mí</Link>
                 <Link to="/myprojects">Proyectos</Link>
                 <Link to="/cv">CV</Link>
-                <Link to="/hobbies">Hobbies</Link>
                 <Link to="/contact">Contacto</Link>
             </div>
         </>

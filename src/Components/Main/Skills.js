@@ -15,7 +15,7 @@ const Skills = () => {
                     <div className="Skills__slide"><img className="Skills__svg" src="./svg/css.svg" alt="css logo" title="css" /></div>
                     <div className="Skills__slide"><img className="Skills__svg" src="./svg/js.svg" alt="js logo" title="js" /></div>
                     <div className="Skills__slide"><img className="Skills__svg" src="./svg/react.svg" alt="react logo" title="react" /></div>
-                    <div className="Skills__slide"><img className="Skills__svg" src="./svg/next.svg" alt="next logo" title="next" /></div>
+                    <div className="Skills__slide"><img className="Skills__svg" src="./svg/redux.svg" alt="redux logo" title="redux" /></div>
                     <div className="Skills__slide"><img className="Skills__svg" src="./svg/firebase.svg" alt="firebase logo" title="firebase" /></div>
                     <div className="Skills__slide"><img className="Skills__svg" src="./svg/sass.svg" alt="sass logo" title="sass" /></div>
                     <div className="Skills__slide"><img className="Skills__svg" src="./svg/bootstrap.svg" alt="bootstrap logo" title="bootstrap" /></div>
@@ -25,12 +25,13 @@ const Skills = () => {
                     <div className="Skills__slide"><img className="Skills__svg" src="./svg/corel.svg" alt="corel logo" title="corel" /></div>
                     <div className="Skills__slide"><img className="Skills__svg" src="./svg/figma.svg" alt="figma logo" title="figma" /></div>
                     <div className="Skills__slide"><img className="Skills__svg" src="./svg/slack.svg" alt="slack logo" title="slack" /></div>
+                    <div className="Skills__slide"><img className="Skills__svg" src="./svg/trello.svg" alt="trello logo" title="trello" /></div>
                     
                     <div className="Skills__slide"><img className="Skills__svg" src="./svg/html.svg" alt="htlm logo" title="htlm" /></div>
                     <div className="Skills__slide"><img className="Skills__svg" src="./svg/css.svg" alt="css logo" title="css" /></div>
                     <div className="Skills__slide"><img className="Skills__svg" src="./svg/js.svg" alt="js logo" title="js" /></div>
                     <div className="Skills__slide"><img className="Skills__svg" src="./svg/react.svg" alt="react logo" title="react" /></div>
-                    <div className="Skills__slide"><img className="Skills__svg" src="./svg/next.svg" alt="next logo" title="next" /></div>
+                    <div className="Skills__slide"><img className="Skills__svg" src="./svg/redux.svg" alt="redux logo" title="redux" /></div>
                     <div className="Skills__slide"><img className="Skills__svg" src="./svg/firebase.svg" alt="firebase logo" title="firebase" /></div>
                     <div className="Skills__slide"><img className="Skills__svg" src="./svg/sass.svg" alt="sass logo" title="sass" /></div>
                     <div className="Skills__slide"><img className="Skills__svg" src="./svg/bootstrap.svg" alt="bootstrap logo" title="bootstrap" /></div>
@@ -40,12 +41,13 @@ const Skills = () => {
                     <div className="Skills__slide"><img className="Skills__svg" src="./svg/corel.svg" alt="corel logo" title="corel" /></div>
                     <div className="Skills__slide"><img className="Skills__svg" src="./svg/figma.svg" alt="figma logo" title="figma" /></div>
                     <div className="Skills__slide"><img className="Skills__svg" src="./svg/slack.svg" alt="slack logo" title="slack" /></div>
+                    <div className="Skills__slide"><img className="Skills__svg" src="./svg/trello.svg" alt="trello logo" title="trello" /></div>
                     
                     <div className="Skills__slide"><img className="Skills__svg" src="./svg/html.svg" alt="htlm logo" title="htlm" /></div>
                     <div className="Skills__slide"><img className="Skills__svg" src="./svg/css.svg" alt="css logo" title="css" /></div>
                     <div className="Skills__slide"><img className="Skills__svg" src="./svg/js.svg" alt="js logo" title="js" /></div>
                     <div className="Skills__slide"><img className="Skills__svg" src="./svg/react.svg" alt="react logo" title="react" /></div>
-                    <div className="Skills__slide"><img className="Skills__svg" src="./svg/next.svg" alt="next logo" title="next" /></div>
+                    <div className="Skills__slide"><img className="Skills__svg" src="./svg/redux.svg" alt="redux logo" title="redux" /></div>
                     <div className="Skills__slide"><img className="Skills__svg" src="./svg/firebase.svg" alt="firebase logo" title="firebase" /></div>
                     <div className="Skills__slide"><img className="Skills__svg" src="./svg/sass.svg" alt="sass logo" title="sass" /></div>
                     <div className="Skills__slide"><img className="Skills__svg" src="./svg/bootstrap.svg" alt="bootstrap logo" title="bootstrap" /></div>
@@ -55,6 +57,7 @@ const Skills = () => {
                     <div className="Skills__slide"><img className="Skills__svg" src="./svg/corel.svg" alt="corel logo" title="corel" /></div>
                     <div className="Skills__slide"><img className="Skills__svg" src="./svg/figma.svg" alt="figma logo" title="figma" /></div>
                     <div className="Skills__slide"><img className="Skills__svg" src="./svg/slack.svg" alt="slack logo" title="slack" /></div>
+                    <div className="Skills__slide"><img className="Skills__svg" src="./svg/trello.svg" alt="trello logo" title="trello" /></div>
                 </div>
             </div>
         </>

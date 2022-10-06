@@ -8,7 +8,6 @@ const MobileMenu = ({ handleClick }) => {
                 <Link to="/aboutme" onClick={handleClick}>About</Link>
                 <Link to="/myprojects" onClick={handleClick}>Projects</Link>
                 <Link to="/cv" onClick={handleClick}>Resume</Link>
-                <Link to="/hobbies" onClick={handleClick}>Hobbies</Link>
                 <Link to="/contact" onClick={handleClick}>Contact</Link>
             </div>
     )

@@ -22,8 +22,11 @@ const AboutMe = () => {
                 <p>
                     As regards my professional life, I've got a degree in Accountancy from the Buenos Aires University (UBA), but it was never my real passion.
                     As the pandemic began, I incursionated in programming and I discovered how much I like it. From that moment, I continued learning and practicing constantly.
+                </p>
+                <p>
                     I've completed the "Front-end React Development" program at <a href="https://www.coderhouse.com/">"Coderhouse"</a> and I have been studying on my own since then.
-                    Some classmates and I created a Development Team named "Timu". We gained experience offering our services for free to NGOs that needed a website.
+                    To improve my skills and get new ones, I am taking a "React Native" course, also in <a href="https://www.coderhouse.com/">"Coderhouse"</a>.
+                    In order to gain experience, I carry out many projects, some of them, in collaboration with collegues and designers in the community, implementing agile methodologies.
                 </p>
             </div>
             <Skills />
@@ -44,10 +47,11 @@ const AboutMe = () => {
                 <p>
                     Respecto a mi profesión, me gradué como Contador Público en la Universidad de Buenos Aires (UBA), pero nunca me apasionó realmente la contabilidad.
                     Cuando comenzó la pandemia, incursioné en la programación y descubrí lo mucho que me gustaba, y desde ese momento, comencé a estudiar, leer y practicar constantemente.
-                    He completado la carrera de "Front-end React Developer" en <a href="https://www.coderhouse.com/">"Coderhouse" y actualmente continuo capacitándome de manera autodidácta.</a>.
                 </p>
                 <p>
-                    Junto con algunos compañeros desarrolladores y otros diseñadores hemos conformado un grupo de trabajo al que llamamos "Timu". De esta manera comenzamos a ofrecer nuestros servicios a ONGs que necesitaban de nuestra ayuda, para de esta manera poder sumar experiencia laboral.
+                    He completado la carrera de "Front-end React Developer" en <a href="https://www.coderhouse.com/">"Coderhouse"</a> y actualmente continuo capacitándome de manera autodidácta.
+                    Estoy cursando actualmente "Desarrollo de aplicaciones con React Native" también en <a href="https://www.coderhouse.com/">"Coderhouse"</a>.
+                    Para poder adquirir experiencia, llevo a cabo varios proyectos, algunos de ellos en colaboración con colegas y diseñadores de la comunidad, utilizando metodologías ágiles.
                 </p>
             </div>
             <Skills />

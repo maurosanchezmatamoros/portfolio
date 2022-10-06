@@ -2,7 +2,6 @@ import Navbar from "./Components/Navbar/Navbar"
 import AboutMe from "./Components/Main/AboutMe"
 import MyProjects from "./Components/Main/MyProjects"
 import CV from "./Components/Main/CV"
-import Hobbies from "./Components/Main/Hobbies"
 import Contact from "./Components/Main/Contact"
 import Language from "./Components/Main/Language"
 import Footer from "./Components/Footer/Footer"
@@ -26,14 +25,12 @@ function App() {
                 <AboutMe />
                 <MyProjects />
                 <CV />
-                <Hobbies />
                 <Contact />
                 </>
               } />
               <Route path='/aboutme' element={<AboutMe />} />
               <Route path='/myprojects' element={<MyProjects />} />
               <Route path='/cv' element={<CV />} />
-              <Route path='/hobbies' element={<Hobbies />} />
               <Route path='/contact' element={<Contact />} />
               <Route path='*' element={<h1>Page not found</h1>} />
             </Routes>
