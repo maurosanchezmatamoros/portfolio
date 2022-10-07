@@ -27,7 +27,7 @@ const MyProjectsCard = ({name, image, web, github, description, descripcion}) =>
                     GitHub
                 </a>
                 </button>
-            <span>
+            <p>
                 {language==="en"?
                 description
                 :
@@ -35,7 +35,7 @@ const MyProjectsCard = ({name, image, web, github, description, descripcion}) =>
                 descripcion
                 :
                 "LanguageError"}
-                </span>
+            </p>
         </div>
     )
 }

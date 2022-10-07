@@ -1,6 +1,15 @@
 export const Projects = [
     {
         id: 1,
+        name: "The Sound of Grill",
+        image: "./images/theSoundOfGrill.jpg",
+        github: "https://github.com/maurosanchezmatamoros/the-sound-of-grill",
+        web: "https://the-sound-of-grill.vercel.app/",
+        descripcion: <>Landing page realizada para restaurante mexicano, proyecto realizado en React.js junto con <a href="https://linktr.ee/disenoydesarrollo">Equipo de Diseño y Desarrollo</a> conformado por <a href="https://www.coderhouse.com/">Coderhouse</a> por formar parte del TOP10</>,
+        description: <>Landing page of a mexican restaurant, developed with React.js in collaboration with <a href="https://linktr.ee/disenoydesarrollo">Desing and develop team</a> grouped by <a href="https://www.coderhouse.com/">Coderhouse</a> because of ending in the TOP10 students</>
+    },
+    {
+        id: 2,
         name: "Mauldi deco",
         image: "./images/mauldiDeco.jpg",
         github: "https://github.com/maurosanchezmatamoros/Mauldi-deco",
@@ -9,7 +18,7 @@ export const Projects = [
         description: "Home furnishing brand e-commerce. Project created with React.",
     },
     {
-        id: 2,
+        id: 3,
         name: "Noan Kids",
         image: "./images/noanKids.jpg",
         github: "https://github.com/maurosanchezmatamoros/noankids",
@@ -18,7 +27,7 @@ export const Projects = [
         description: "Static website for an educational toys brand. Project created with CSS + SASS.",
     },
     {
-        id: 3,
+        id: 4,
         name: "Payroll App",
         image: "./images/liquidadorSueldos.jpg",
         github: "https://github.com/maurosanchezmatamoros/liquidadorSueldos",
@@ -27,7 +36,7 @@ export const Projects = [
         description: "Payroll calculator app. Project created with Vanilla Javascript.",
     },
     {
-        id: 4,
+        id: 5,
         name: "Yachai Wassy",
         image: "./images/yachayWassy.jpg",
         github: "https://github.com/maurosanchezmatamoros/Yachai_Wassy",

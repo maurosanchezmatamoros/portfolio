@@ -17,7 +17,7 @@
     width: 95%;
     display: grid;
     grid-template-columns: calc(50% - 1rem) calc(50% - 1rem);
-    grid-template-rows: calc(50% - 1rem) calc(50% - 1rem);
+    grid-template-rows: auto auto;
     grid-gap: 2rem;
     align-items: flex-start;
 }
